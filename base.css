@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+main{
+    max-width: 736px;
+    max-height: 40px;
+    min-width: 350px;
+    font-family: sans-serif;
+    letter-spacing: 0%;
+    color: #171717;
+    margin: auto;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+::marker,
+#correo,
+#volver{
+    color: #6D28D9;
+}
+
+figure{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+table{
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+
+}
+
+th,
+td{
+    border-bottom:1px solid #171717;
+    padding: 15px;
+}
+
+thead,
+th{
+    text-align: left;
+}
+
+footer{
+    height: 120.81px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    gap: 16.81px;
+    background-color: #F5F5F5;
+    text-align: center;
+}
