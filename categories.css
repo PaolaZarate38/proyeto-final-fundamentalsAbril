@@ -1,0 +1,74 @@
+
+.page-section {  /* MODIFIQUE LAS MEDIDAS PARA VER SI EL ERROR ES QUE NO CABE EN LA PANTALLA DE MI LAPTOP */
+    margin: auto;
+    max-width: 1280px;
+    max-height: 7324px;
+    padding: 16px;
+}
+
+.section-title {
+    margin: 0;
+    margin-top: 60px;
+    font-size: 24px;
+    line-height: 16px;
+}
+
+.section-description {
+    color: #60646c;
+}
+
+.categories-container {
+    max-width: 1216px;
+    max-height: 588px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    /* justify-content: center; */
+}
+
+ .category {
+    width: 300px; /* Aqui aplique las correciones que me indico */
+    margin: 0;
+} 
+
+.category-image {
+    border-radius: 12px;
+    /* object-fit: cover; Esto lo quite porque hacia que las imagenes crecieran en exceso 
+    aspect-ratio: 3/2; */
+} 
+
+
+
+.category-title {
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #1c2024;
+    margin-bottom: 0;
+  }
+  
+.category-description {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #60646c;
+}
+
+
+
+
+/* @media (min-width: 750px) { /* MODIFIQUE LAS MEDIDAS PARA VER SI EL ERROR ES QUE NO CABE EN LA PANTALLA DE MI LAPTOP
+
+    .category-image{
+        aspect-ratio: 4/5;
+    }
+    .page-section{
+        padding: 32px;
+    }
+    .section-title{
+        font-size: 2.5rem;
+    }
+} */
+
+
